@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background: chocolate;
+}
+
+p {
+    background-color: rgb(124, 109, 109);
+    color: azure;
+    font-size: 45px;
+    height: 50%;
+    width: 55%;
+    margin-top: 11%;
+    margin-left: 25%;
+    text-align: center;
+    padding: 25px 25px;
+}

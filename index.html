@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive1.css">
+    <link rel="stylesheet" href="responsive2.css">
+    <link rel="stylesheet" href="responsive3.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</head>
+
+<body dark-mode light-mode>
+
+    <header class="navbar">
+
+        <div class="logo">
+            <h2>Portfolio.</h2>
+        </div>
+
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2">About</a></li>
+            <li><a href="#skill" style="--i:4;">Skill</a></li>
+            <li><a href="#service" style="--i:3;">Service</a></li>
+            <li><a href="#projects" style="--i:3;">Projects</a></li>
+            <li><a href="#contact" style="--i:5;">Contact</a></li>
+        </ul>
+
+        <nav>
+            <div class="con">
+                <label class="switch">
+                    <input type="checkbox" id="mode-toggle">
+                    <span class="slider">
+                        <span class="icon sun-icon">&#9728;</span> <!-- Sun Icon for Light Mode -->
+                        <span class="icon moon-icon">&#9789;</span> <!-- Moon Icon for Dark Mode -->
+                    </span>
+                </label>
+            </div>
+
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="container" id="home">
+
+        <header class="had">
+            <h3> Hello This Is Rohit Maurya</h3>
+            <span>I Am Front End Developer</span>
+
+            <div class="cv">
+                <a href="./resume/RohitMaury is.pdf" download="CV" class="download-btn stars">Download CV<i
+                        class="fa fa-download" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="social-container">
+                <a data-social="Instagram" style="--accent-color : #e1306c" href="https://www.instagram.com/"><svg
+                        role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>Instagram</title>
+                        <path
+                            d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+                    </svg></a>
+
+                <a data-social="Facebook" style="--accent-color : #1877f2" href="https://www.facebook.com/"><svg
+                        role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>Facebook</title>
+                        <path
+                            d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" />
+                    </svg></a>
+
+                <a data-social="Github" style="--accent-color : #000000" href="https://github.com/Rohit-3344"><svg
+                        role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>GitHub</title>
+                        <path
+                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                    </svg></a>
+
+                <a data-social="Twitter" style="--accent-color : #3572af" href="https://x.com/i/flow/login?lang=en"><svg
+                        role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>X</title>
+                        <path
+                            d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+                    </svg></a>
+
+            </div>
+
+        </header>
+
+        <div class="idiv">
+            <img class="img"
+                src="https://static.vecteezy.com/system/resources/thumbnails/030/492/615/small_2x/3d-rendering-of-a-boy-peeking-out-from-behind-a-white-wall-ai-generated-free-photo.jpg"
+                alt="">
+        </div>
+
+    </div>
+
+
+    <div class="abo" id="about">
+        <header class="border">
+            <h2>About Me</h2>
+
+            <div class="i2div">
+                <img src="./img/3d-cartoon-boy-using-laptop_876876-677.avif" alt="boy with laptop" class="lapboy">
+            </div>
+            <div class="slide">
+                <p class="para">As a Passionate Front-End Developer with 4 months of internship experience, I am eager
+                    to
+                    apply my skills in HTML, CSS, JavaScript, and responsive design to build intuitive and user-friendly
+                    web
+                    applications. My goal is to continue growing professionally in a dynamic environment, collaborating
+                    with
+                    teams to create high-quality, innovative digital experiences. I am committed to staying up-to-date
+                    with
+                    emerging technologies and enhancing my technical expertise in front-end development.
+                </p>
+
+                <div class="click">
+                    <button class="onclick tap">Read More</button>
+                </div>
+            </div>
+
+        </header>
+    </div>
+
+    <div class="sky" id="skill">
+        <h2>Skill</h2>
+
+        <header class="skii">
+
+            <li>
+                <h3>html</h3>
+                <span class="bar ba1"><span class="html"></span></span>
+            </li>
+
+            <li>
+                <h3>Css</h3>
+                <span class="bar ba2"><span class="css"></span></span>
+            </li>
+
+            <li>
+                <h3>JavaScript</h3>
+                <span class="bar ba3"><span class="javascript"></span></span>
+            </li>
+
+            <li>
+                <h3>React</h3>
+                <span class="bar ba4"><span class="react"></span></span>
+            </li>
+
+            <li>
+                <h3>Creativity</h3>
+                <span class="bar ba5"><span class="creativity"></span></span>
+            </li>
+
+        </header>
+    </div>
+
+    <div class="our-service" id="service">
+        <div class="our-service1">
+            <h2>Certificate</h2>
+        </div>
+
+        <div class="ser2">
+            <p>Certificate In Box Find You</p>
+        </div>
+
+        <div class="card-area">
+            <div class="wrapper">
+                <div class="box-area">
+                    <div class="box">
+                        <img src="" alt="">
+                        <div class="overlay">
+                            <h2>Web Development</h2>
+                            <p>I have completed a Web Development
+                                Certificate, which has equipped me with the skills to
+                                design and develop responsive websites.</p>
+
+                            <a href="./few line/web dev.html" target="_blank" class="read">Read More<i
+                                    class="fa fa-download" aria-hidden="true"></i></a>
+
+                            <a href="./resume/Full Stack Development_ Let's begin Training - Certificate of Completion.pdf"
+                                target="_blank" class="a">Download<i class="fa fa-download" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="" alt="">
+                        <div class="overlay">
+                            <h2>Intern</h2>
+                            <p>I have completed an internship in Web Development, where I gained practical experience in
+                                building and
+                                maintaining websites. During this internship,</p>
+
+                            <a href="./few line/web dev.html" target="_blank" class="read">Read More<i
+                                    class="fa fa-download" aria-hidden="true"></i></a>
+
+                            <a href="./resume/Rohit Maurya CT.pdf" target="_blank" class="a">Download<i
+                                    class="fa fa-download" aria-hidden="true"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <img src="" alt="">
+                        <div class="overlay">
+                            <h2>Full Stack Development</h2>
+                            <p>I have completed a Full Stack Development Certificate, which has provided me with a
+                                comprehensive understanding
+                                of both front-end and back-end development.
+                            </p>
+
+                            <a href="./few line/full stack.html" target="_blank" class="read">Read More<i
+                                    class="fa fa-download" aria-hidden="true"></i></a>
+
+                            <a href="./resume/Full Stack Development_ Let's begin Training - Certificate of Completion.pdf"
+                                target="_blank" class="a">Download<i class="fa fa-download" aria-hidden="true"></i></a>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pro" id="projects">
+        <div class="cer">
+            <h2>Projects</h2>
+        </div>
+
+        <div class="cop">
+            <div class="cards">
+                <img src="./img/is_web_development_good_career.avif" alt="">
+                <div class="info">
+                    <h1>Photographer</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi itaque modi quaerat,
+                        facere suscipit cupiditate ipsum harum, dolor laudantium, reiciendis similique illo quos.
+                    </p>
+                    <a href="https://bootstrapmade.com/demo/DevFolio/" target="_blank" class="btn">Preview</a>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="./img/istockphoto-537331500-612x612.jpg" alt="">
+                <div class="info">
+                    <h1>Web Designer</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi itaque modi quaerat,
+                        facere suscipit cupiditate ipsum harum, dolor laudantium, reiciendis similique illo quos.
+                    </p>
+                    <a href="https://technext.github.io/JohnDoe/" target="_blank" class="btn">Preview</a>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="./img/images.jpg" alt="">
+                <div class="info">
+                    <h1>UI & UX SPE</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi itaque modi quaerat,
+                        facere suscipit cupiditate ipsum harum, dolor laudantium, reiciendis similique illo quos.
+                    </p>
+                    <a href="https://templatemo.com/live/templatemo_458_lavish" target="_blank" class="btn">Preview</a>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="./img/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL3Jhd3BpeGVsb2ZmaWNlMTVfYV9taW5pbWFsX2FuZF9sZXNzX2RldGFpbF9pbGx1c3RyYXRpb25fb2ZfYV9sb18wNTg0YjQ3My03NGYxLTQwZGItYTlmNS03Njk0ZjI3NWE3MGZfMS5qcGc.webp"
+                    alt="">
+                <div class="info">
+                    <h1>Web Developer</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi itaque modi quaerat,
+                        facere suscipit cupiditate ipsum harum, dolor laudantium, reiciendis similique illo quos.
+                    </p>
+                    <a href="https://technext.github.io/profile/" target="_blank" class="btn">Preview</a>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="./img/360_F_354178616_uSdqA6i1A1vkkskFPKOoxQOED0ZMIcn3.jpg" alt="">
+                <div class="info">
+                    <h1>UI/UX/Designer</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi itaque modi quaerat,
+                        facere suscipit cupiditate ipsum harum, dolor laudantium, reiciendis similique illo quos.
+                    </p>
+                    <a href="https://technext.github.io/jackson/" target="_blank" class="btn">Preview</a>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="./img/download.jpg" alt="">
+                <div class="info">
+                    <h1>Freelancer</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi itaque modi quaerat,
+                        facere suscipit cupiditate ipsum harum, dolor laudantium, reiciendis similique illo quos.
+                    </p>
+                    <a href="https://bootstrapmade.com/demo/Folio/" target="_blank" class="btn">Preview</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="fo">
+        <section class="cont" id="contact">
+            <div class="form">
+                <h1>Contact Me</h1><br>
+
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+                <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+                <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your Email">
+                <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+                    placeholder="Drop Your Message"></textarea>
+                <button type="button" class="btn1 btn-dark">
+                    <h3>Submit</h3>
+                </button><br>
+            </div>
+        </section>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="icon-container">
+
+            <a href="tel:+91234567890" class="social-icon whatsapp">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAcxJREFUSEvlluFNAzEMRt1N6CTAJnQSYBJgksIkwCTAk/JJPsdOcvypEJGqSnc+P/uz4+RgF1qHC3HtT4KvzIzfR/vtEm9PxkDuzOzazG4CBfirmb39BPO8EsEq+MHM7p1DQCz+syBuZyrMwGR5dpK+tMzIzi/sCIDgJD+2BJyuERhHQFmAyGK2VA6p81jBR2CgwMuPB1EoaEpxaoFvzCuwahozxWGUueLLB/BjNMrAXmI+UCO9t/oh+Qrc9wdZb7o9A7NlnppEMtazPfXGVkl0PZKBgQLy2eqZFPPvRg1H1ijVyZ2BJal/99uMCUr+NsFm4K8kQkWOo71drt2x6Y0ILqVp8iN5uUUKzbPSpadTlrF8+i3i9ydNRNDZnM5Kl4JTaRrZTyZ/MJAVi2dxVJLIUlcrK6Inq2zFQ8Pb+O/UlJ2vrLlGdfYA7JjJONeK9S+HTjUyJXc3cZL0dSHQcJGJfKTKVeB0782OJvfeHxLdnMZuNKt9pDpjZ2zsaDRdDsq5PprVgD/dVUcdy3MdHAoknsPTvZ6BVRufHY5w7ptI8Hj1WZpso5GJY13eBM4ue7plettZSboaq0NXz9so+RQog9llb9nRXsP/B/4GT5eKH8jNYwIAAAAASUVORK5CYII="
+                    class="im1" />
+                <span>+91 234 567 890</span>
+            </a>
+
+
+            <a href="mailto:mailwright@example.com" class="social-icon gmail">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAARpJREFUSEvtlu0NwjAMRK+bwCYwCTAJMAlsApvAKPAkXKVRPpS0gSI1Er+w/XIXO2mnH63uR1wt4K85PxurN5J2klaSzpLuIy1w6x0kPa2eqxjYwwMBv7oJBRs5STp68Wur5YJDgeSherDbDBwBl3ceav1FHYQMxikGtuQ+KQEGdkv8j4NwisDEp6zPbdzyq8Ah61PW+uKrFbuF7NxT1jYBFzR4HzqJ4uZgxik0GilwLKdIMUMPmMuARsqt7ScgdPbFYK46oBSLwVFp12xsnqvAppRbae/J5jaiy201AVMcsFmPtf5j0gwMHMv5hV6wpuBUk/0HmHOjcfzVv6G5OaptLvIYF/+ymAo86PzZfHMVuDkudFE8zr+C7BdKC1Qf4Pwj6wAAAABJRU5ErkJggg=="
+                    class="im2" />
+                <span>rohitmaur1234@gmail.com</span>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
